@@ -1,0 +1,11 @@
+.pica{
+    height:400px;
+    /* visibility: hidden; */
+}
+.pica:hover{
+    visibility: visible;
+}
+.app{
+    width:200px;
+    background-color:grey;
+}
