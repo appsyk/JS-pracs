@@ -48,6 +48,7 @@ p {
 	width: 100%;
 	background-repeat: no-repeat;
 	padding: 20% 0px 20% 0px;
+	/* animation: MoveToRight 1s ease-in; */
 }
 /* -------sanjay------------------ */
 .text-content > h2{
@@ -148,15 +149,15 @@ p {
 	animation: Items 1s ease-in;
 }
 #two {
-	animation: Items 2s ease-in;
+	animation: Items 1.5s ease-in;
 
 }
 #three {
-	animation: Items 3s ease-in;
+	animation: Items 2s ease-in;
 	
 }
 #four {
-	animation: Items 4s ease-in;
+	animation: Items 2.5s ease-in;
 	
 }
 @keyframes Items{
