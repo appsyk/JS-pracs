@@ -33,12 +33,13 @@
     height:252px;
     word-break: normal;
     position: absolute;
+    box-shadow: 1px 1px 12px 1px black;
 
   }
   .comp-st > p {
 visibility: hidden;
 opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.7s linear;
  position: relative;
  color: white;
  font-weight: 100px;

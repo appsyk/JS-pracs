@@ -36,3 +36,10 @@ var CardFlip = function () {
                         }
                     });
                 }
+
+                let p = 'https://www.flinn360science.com/Assets/Images/360Science/LabSolution/Analysis%20of%20Buffer%20Solutions%20and%20Ranges.png';
+
+                let pt = '';
+                pt = pt + `<div style="background: url=(${p})">`;
+console.log(pt)
+                document.getElementById('asd').innerHTML = pt;

@@ -52,3 +52,47 @@ let oat = /[Jj][Aa][Yy]/;
 console.log(oat.test('jay'))
 console.log(oat.test('ayj'))
 console.log(oat.test('yaj'))
+
+console.log('----------04/10/2019-----------------------')
+
+function getNo(n){
+    console.log( 'getNo', Math.floor(Math.random() * n));
+    return Math.floor(Math.random() * n);
+}
+
+let food = ['mango','Apple','roti','beef','chicken']
+
+let getMeat = new Promise((resolve, reject) => {
+    let n = getNo(5);
+    (n > 2) ? resolve(n) : reject(n);
+}) ;
+
+getMeat .then(result => console.log(`No meat ${food[result]}`))
+.catch(result => console.log(`yes food ${food[result]}`))
+
+function* exampleGenerator(){
+
+}
+
+function* fibonacci(a,b){
+    let [prev, cur] = [a,b];
+    while(true){
+        [prev, cur] = [cur, prev+cur];
+        yield cur;
+    }
+}
+
+let seq = fibonacci(1,2);
+console.log(seq.next())
+console.log(seq.next())
+console.log(seq.next())
+console.log(seq.next())
+console.log(seq.next())
+console.log(seq.next())
+console.log(seq.next())
+console.log(seq.next())
+
+
+console.log('----------04/10/2019-----------------------')
+
+
