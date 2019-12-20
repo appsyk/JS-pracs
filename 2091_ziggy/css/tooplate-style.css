@@ -10,6 +10,10 @@ http://www.tooplate.com/view/2091-ziggy
 BASIC STYLE
 ============*/
 
+body{
+	overflow-x: hidden;
+}
+
 ul {
 	padding: 0;
 	margin: 0;
@@ -128,6 +132,8 @@ p {
 
 .second-section {
 	padding: 100px 0px;
+	opacity: 1;
+	
 }
 
 .second-section .service-item {
@@ -145,19 +151,49 @@ p {
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
-#one {
-	animation: Items 1s ease-in;
+
+.second-section1 {
+	padding: 100px 0px;
+	opacity: 1;
+	
 }
-#two {
+
+.second-section1 .service-item {
+	text-align: center;
+}
+
+.second-section1 .service-item .icon img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.second-section1 h4 {
+	font-size: 16px;
+	color: #415b90;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.second-section1 #one {
+	animation: Items 2s ease-out;
+}
+.second-section1 #two {
 	animation: Items 1.5s ease-in;
 
 }
-#three {
+.second-section1 #three {
 	animation: Items 2s ease-in;
 	
 }
-#four {
+.second-section1 #four {
 	animation: Items 2.5s ease-in;
+	
+}
+.second-section1 {
+	/* animation: Items 1s ease-out; */
+	text-align: center;
+	padding: 100px 0px;
+
 	
 }
 @keyframes Items{
@@ -193,6 +229,24 @@ p {
 .third-section .right-text {
 	display: inline;
 }
+
+.third-section1 .left-image img {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	animation: MoveToRight 1s ease-out ;
+}
+
+.third-section1 .right-text {
+	display: inline;
+	animation: line 0.9s ease-out;
+}
+.third-section1 #right-text {
+	/* display: inline; */
+	text-align: center;
+	animation: line 0.9s ease-out;
+}
+
 
 .third-section em {
 	font-size: 18px;
@@ -728,6 +782,7 @@ footer a:hover {
 
 	.second-section .service-item {
 		margin-bottom: 50px;
+		opacity: 1;
 	}
 
 	.third-section {
